@@ -5,6 +5,7 @@ import com.swayam.contact_backend.service.EmailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+@CrossOrigin(origins = "https://swayam-portfolio-eta.vercel.app")
 @RestController
 @RequestMapping("/api/contact")
 public class ContactController {
